@@ -14,3 +14,6 @@ curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install mdatp -y
+
+#removendo o repô ao final da instalação
+sudo rm -rf ~/1shot1kill
